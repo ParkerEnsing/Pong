@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://cowbd36yg02nm"]
 
-[ext_resource type="Script" path="res://assets/scripts/paddle.gd" id="1_xm7xm"]
+[ext_resource type="Script" path="res://assets/scripts/playerPaddle.gd" id="1_xm7xm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_prgmv"]
 size = Vector2(20, 200)
 
-[node name="Paddle" type="CharacterBody2D"]
+[node name="playerPaddle" type="CharacterBody2D"]
 script = ExtResource("1_xm7xm")
 
 [node name="ColorRect" type="ColorRect" parent="."]
