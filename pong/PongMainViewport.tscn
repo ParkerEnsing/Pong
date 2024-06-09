@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://ckbyg3d2mticb"]
+[gd_scene load_steps=4 format=3 uid="uid://d3x3eghk20d02"]
 
 [ext_resource type="Script" path="res://Main.gd" id="1_o4qou"]
 [ext_resource type="Texture2D" uid="uid://byeq2te0w3jm7" path="res://assets/maps/default_map.png" id="2_a2w1h"]
+[ext_resource type="PackedScene" uid="uid://cowbd36yg02nm" path="res://assets/scenes/paddle.tscn" id="3_mhpqe"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_o4qou")
@@ -10,3 +11,5 @@ script = ExtResource("1_o4qou")
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_a2w1h")
 centered = false
+
+[node name="Paddle" parent="." instance=ExtResource("3_mhpqe")]
