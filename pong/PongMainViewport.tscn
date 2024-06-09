@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dmayvmwrusk0y" path="res://assets/scenes/ball.tscn" id="3_awysh"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_83y6s"]
+[ext_resource type="PackedScene" uid="uid://cowbd36yg02nm" path="res://assets/scenes/paddle.tscn" id="3_mhpqe"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_o4qou")
@@ -31,3 +32,5 @@ shape = SubResource("WorldBoundaryShape2D_83y6s")
 position = Vector2(0, 1080)
 rotation = 1.5708
 shape = SubResource("WorldBoundaryShape2D_83y6s")
+
+[node name="Paddle" parent="." instance=ExtResource("3_mhpqe")]
