@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3841 2421.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #000;
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="1879.09" width="43.77" height="2421.36"/>
+    </clipPath>
+  </defs>
+  <rect id="Background" class="cls-2" x=".5" y="28.18" width="3840" height="2160"/>
+  <g class="cls-4">
+    <g>
+      <rect class="cls-1" x="1879.59" y=".5" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="62.18" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="123.86" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="185.55" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="247.23" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="308.91" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="370.59" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="432.27" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="493.95" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="555.64" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="617.32" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="679" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="740.68" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="802.36" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="864.05" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="925.73" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="987.41" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1049.09" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1110.77" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1172.45" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1234.14" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1295.82" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1357.5" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1419.18" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1480.86" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1542.55" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1604.23" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1665.91" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1727.59" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1789.27" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1850.95" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1912.64" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="1974.32" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2036" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2097.68" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2159.36" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2221.05" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2282.73" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2344.41" width="40" height="40"/>
+      <rect class="cls-1" x="1879.59" y="2406.09" width="40" height="40"/>
+    </g>
+  </g>
+</svg>
