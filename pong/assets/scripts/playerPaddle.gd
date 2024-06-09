@@ -1,4 +1,4 @@
-extends Node2D
+extends CharacterBody2D
 
 @export var x_offset = 40
 @export var side = 0
@@ -18,4 +18,4 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	position[1] = get_global_mouse_position()[1]
+	var collision_info = move_and_collide(get_global_mouse_position())
