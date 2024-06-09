@@ -21,6 +21,11 @@ config/icon="res://icon.svg"
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 
+[layer_names]
+
+2d_render/size/viewport_height=1080
+2d_render/size/viewport_width=1920
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
