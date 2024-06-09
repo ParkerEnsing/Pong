@@ -15,7 +15,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	velocity = velocity * speed
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)

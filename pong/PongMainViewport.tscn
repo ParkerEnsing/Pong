@@ -15,20 +15,34 @@ texture = ExtResource("2_a2w1h")
 centered = false
 
 [node name="Ball" parent="." instance=ExtResource("3_awysh")]
-position = Vector2(688, 439)
+position = Vector2(930, 510)
 speed = 400
 start_direction = 1
 
-[node name="TopCollider" type="StaticBody2D" parent="."]
+[node name="WorldBoundaries" type="Node" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TopCollider"]
+[node name="TopBoundary" type="StaticBody2D" parent="WorldBoundaries"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/TopBoundary"]
 rotation = 1.5708
 shape = SubResource("WorldBoundaryShape2D_83y6s")
 
-[node name="BottomCollider" type="StaticBody2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomCollider"]
+[node name="BottomBoundary" type="StaticBody2D" parent="WorldBoundaries"]
 position = Vector2(0, 1080)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/BottomBoundary"]
 rotation = 1.5708
 shape = SubResource("WorldBoundaryShape2D_83y6s")
 
+[node name="LeftBoundary" type="StaticBody2D" parent="WorldBoundaries"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/LeftBoundary"]
+position = Vector2(0, 1080)
+shape = SubResource("WorldBoundaryShape2D_83y6s")
+
+[node name="RightBoundary" type="StaticBody2D" parent="WorldBoundaries"]
+position = Vector2(1920, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/RightBoundary"]
+position = Vector2(0, 1080)
+shape = SubResource("WorldBoundaryShape2D_83y6s")
