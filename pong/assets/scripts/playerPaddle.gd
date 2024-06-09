@@ -13,9 +13,13 @@ func _ready() -> void:
 			referenceOrigin = get_viewport_rect().size[0] - 20
 			x_offset *= -1
 	
-	position[0] = referenceOrigin + x_offset
-	position[1] = 0.5 * get_viewport_rect().size[1]
+	position.x = referenceOrigin + x_offset
+	position.y = 0.5 * get_viewport_rect().size.y
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	var collision_info = move_and_collide(get_global_mouse_position())
+	movePaddle()
+
+func movePaddle() -> void:
+	var delY = get_global_mouse_position().y - position.y
+	move_and_collide(Vector2(0, delY))
